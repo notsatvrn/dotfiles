@@ -1,0 +1,89 @@
+
+// -*- mode: json -*-
+
+{
+    "layer": "top",
+    "position": "top",
+    "height": 28,
+    "width": 1920,
+    "modules-left": [
+        "sway/workspaces",
+    ],
+
+    "modules-center": [
+        "sway/window"
+    ],
+
+    "modules-right": [
+        "pulseaudio",
+        "memory",
+        "cpu",
+        "disk",
+        "clock",
+        "tray"
+    ],
+
+    "sway/workspaces": {
+	  "disable-scroll": true,
+    "format": "{icon}",
+    "persistent_workspaces": {
+        "1": ["DP-4"],
+	      "2": ["DP-2"],
+        "3": ["DP-4"],
+	      "4": ["DP-2"],
+	      "5": ["DP-4"],
+	      "6": ["DP-2"],
+	      "7": ["DP-4"],
+	      "8": ["DP-2"],
+	      "9": ["DP-4"],
+	      "10": ["DP-2"],
+    },
+    "format-icons": {
+        "1": "dev",
+        "2": "dev",
+        "3": "www",
+        "4": "www",
+        "5": "game",
+        "6": "mus",
+        "7": "sys",
+        "8": "sys",
+        "9": "misc",
+        "10": "misc",
+      },
+    },
+
+    "sway/window": {
+        "format": "{}",
+        "max-length": 50
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip": false
+    },
+
+    "pulseaudio": {
+        "format": "vol: {volume:2}%",
+        "format-bluetooth": "vol: {volume}%",
+        "format-muted": "muted",
+        "scroll-step": 5,
+        "on-click": "pamixer -t",
+        "on-click-right": "pavucontrol"
+    },
+    "memory": {
+        "interval": 5,
+        "format": "mem: {}%"
+    },
+    "cpu": {
+        "interval": 5,
+        "format": "cpu: {usage:2}%"
+    },
+    "disk": {
+        "interval": 5,
+        "format": "disk: {percentage_used:2}%",
+        "path": "/"
+    },
+    "tray": {
+        "icon-size": 24
+    }
+}
