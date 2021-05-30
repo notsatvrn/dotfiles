@@ -4,9 +4,9 @@
 
 - Distro: Arch Linux
 - WM: Sway
-- Bar: waybar
-- Terminal: alacritty
-- Menu: wofi
+- Bar: Waybar
+- Terminal: Alacritty
+- Menu: Wofi
 - Editor: Neovim
 - Font: JetBrainsMono Nerd Font
 - Colors: Gruvbox
