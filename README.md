@@ -1,25 +1,22 @@
-# Dotfiles
+### info
 
-## Info
+- distro: Arch Linux
+- wm: sway
+- bar: waybar
+- terminal: kitty
+- menu: wofi
+- editor: neovim
+- font: jetbrains mono nerd font
+- colors: gruvbox
 
-- Distro: Arch Linux
-- WM: Sway
-- Bar: Waybar
-- Terminal: Alacritty
-- Menu: Wofi
-- Editor: Neovim
-- Font: JetBrainsMono Nerd Font
-- Colors: Gruvbox
+### hardware
 
-## Hardware
-
-- CPU: i7-2600k
-- GPU: MSI RX 570 ARMOR OC
-- Windows HDD: WD Blue 1TB 2012 7200RPM
-- Linux SSD: Samsung 860 EVO 256GB
-- RAM: Corsair Vengeance 4GBx2 DDR3
-- Motherboard: P8Z68-V LX
-- Monitor 1: Dell U2415
-- Monitor 2: LG 22EA53
-- Mouse: Razer Viper
-- Keyboard: Some generic Dell keyboard.
+- cpu: i7-2600k
+- gpu: msi rx 570 armor oc
+- windows hdd: wd blue 1tb 2012 7200rpm
+- linux ssd: samsung 860 evo 256gb
+- memory: corsair vengeance 4gbx2 ddr33
+- motherboard: p8z68-v lx
+- monitor 1: dell u2415
+- monitor 2: lg 22ea53
+- mouse: razer viper

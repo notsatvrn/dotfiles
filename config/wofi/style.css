@@ -16,7 +16,7 @@ __        __     __ _
 
 window {
   margin: 0px;
-  border-radius: 0px;
+  border-radius: 6px;
   border: 2px solid #504945;
   background-color: rgba(50, 48, 47, 0.9);
 }
@@ -46,7 +46,7 @@ window {
 #text {
   margin: 0px -8px 2px 4px;
   padding: 0px 4px 0px 14px;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: transparent;
 }
 

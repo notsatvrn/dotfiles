@@ -12,13 +12,20 @@ __        __          _
   animation: none;
   font-size: 11.5px;
   font-family: monospace;
-  border-radius: 0px;
   padding: 2px;
 }
 
 window#waybar {
-  background: #3c3836;
+  background: #32302f;
   color: #ebdbb2;
+  border-radius: 6px;
+  border: #504945 solid 2px;
+}
+
+#custom-ewwmenu {
+  color: #ebdbb2;
+  font-size: 19px;
+  margin-right: -4px;
 }
 
 #workspaces,
@@ -30,7 +37,7 @@ window#waybar {
   padding: 0px;
   color: #ebdbb2;
   border-radius: 2px;
-  margin-right: 4px;
+  margin-right: 2px;
 }
 
 #workspaces button.persistent {
@@ -43,7 +50,7 @@ window#waybar {
 }
 
 #workspaces button:hover {
-  background: #32302f;
+  background: #3c3836;
 }
 
 #window {
@@ -57,6 +64,4 @@ window#waybar {
 #battery,
 #disk {
   color: #ebdbb2;
-  padding: 0 12px;
-  padding-left: 6px;
 }

@@ -9,6 +9,7 @@
 ### Autostart
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id xhost +SI:localuser:root
+exec transmission-daemon
 exec waybar
 exec mako
 exec fcitx
@@ -16,20 +17,19 @@ exec blueman-tray
 exec /usr/lib/xfce-polkit/xfce-polkit &
 exec corectrl
 exec polychromatic-tray-applet
-exec udiskie -t
+exec eww daemon
+exec thunar --daemon
+exec makethunarworkagain
 
 ### Variables
 set $mod Mod4
-set $left h
-set $down j
-set $up k
-set $right l
-set $term alacritty
+set $term kitty
 
 ### Display configuration
-output * bg $HOME/Pictures/pacman.png fit #32302f
-output DP-4 pos 0 0 res 1920x1200
+#output * bg $HOME/Pictures/pacman.png fit #32302f
+output DP-4 pos 0 0 mode --custom 1920x1200@60.1Hz
 output DP-2 pos 1920 60 res 1920x1080
+output * bg #32302f solid_color
 workspace 1 output DP-4
 workspace 2 output DP-2
 workspace 3 output DP-4
@@ -66,16 +66,20 @@ seat seat0 xcursor_theme Breeze 16
 font pango:monospace 10
 
 ### Gaps
-gaps outer 0
-gaps inner 8
+gaps inner 20
+gaps outer -5
 
 ### Borders
-client.focused          #504945 #504945 #ebdbb2 #504945   #504945
-client.focused_inactive #3c3836 #3c3836 #ebdbb2 #3c3836   #3c3836
-client.unfocused        #3c3836 #3c3836 #ebdbb2 #3c3836   #3c3836
+border_images.focused $HOME/.config/sway/focused.png
+border_images.focused_inactive $HOME/.config/sway/focused_inactive.png
+border_images.unfocused $HOME/.config/sway/unfocused.png
+border_images.urgent $HOME/.config/sway/urgent.png
+client.focused          #32302f #32302f #ebdbb2 #32302f   #32302f
+client.focused_inactive #32302f #32302f #ebdbb2 #32302f   #32302f
+client.unfocused        #32302f #32302f #ebdbb2 #32302f   #32302f
 client.urgent           #fb4934 #fb4934 #ebdbb2 #fb4934   #fb4934
-client.placeholder      #3c3836 #3c3836 #ebdbb2 #3c3836   #3c3836
-client.background       #3c3836
+client.placeholder      #32302f #32302f #ebdbb2 #32302f   #32302f
+client.background       #32302f
 default_border pixel 2
 
 ### Key bindings
@@ -89,17 +93,10 @@ bindsym $mod+Menu exec --no-startup-id wofi -I -p "" -a
 floating_modifier $mod normal
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+e exec swaymsg exit
-bindsym $mod+$left focus left
-bindsym $mod+$down focus down
-bindsym $mod+$up focus up
-bindsym $mod+$right focus right
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
-bindsym $mod+Shift+$left move left
-bindsym $mod+Shift+$up move up
-bindsym $mod+Shift+$right move right
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -126,20 +123,17 @@ bindsym $mod+Shift+9 move container to workspace number 9
 bindsym $mod+Shift+0 move container to workspace number 10
 bindsym $mod+b splith
 bindsym $mod+v splitvs
-bindsym $mod+s layout stacking
+bindsym $mod+s exec ewwmenu
+bindsym $mod+space layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 bindsym $mod+f fullscreen
 bindsym $mod+Shift+space floating toggle
-bindsym $mod+space focus mode_toggle
+bindsym $mod+Ctrl+space focus mode_toggle
 bindsym $mod+a focus parent
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 mode "resize" {
-    bindsym $left resize shrink width 10px
-    bindsym $down resize grow height 10px
-    bindsym $up resize shrink height 10px
-    bindsym $right resize grow width 10px
     bindsym Left resize shrink width 10px
     bindsym Down resize grow height 10px
     bindsym Up resize shrink height 10px
@@ -153,6 +147,8 @@ bindsym $mod+r mode "resize"
 for_window [class="xfce-polkit"] floating enable
 for_window [title="Authentication required"] floating enable
 for_window [title="Picture in picture"] floating enable
+for_window [title="GLava"] below
+for_window [class="GeometryDash"] floating enable
 
 include /etc/sway/config.d/*
 

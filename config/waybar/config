@@ -4,22 +4,22 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 28,
-    "width": 1920,
+    "height": 36,
+    "width": 1900,
+    "margin-top": 10,
+    "margin-left": 10,
+    "margin-right": 10,
     "modules-left": [
         "sway/workspaces",
     ],
 
     "modules-center": [
-        "sway/window"
+        "sway/window",
     ],
 
     "modules-right": [
-        "pulseaudio",
-        "memory",
-        "cpu",
-        "disk",
         "clock",
+        "custom/ewwmenu",
         "tray"
     ],
 
@@ -50,6 +50,11 @@
         "9": "misc",
         "10": "misc",
       },
+    },
+
+    "custom/ewwmenu": {
+        "format": "{}",
+        "on-click": "ewwmenu"
     },
 
     "sway/window": {
