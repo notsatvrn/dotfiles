@@ -13,17 +13,15 @@ __        __          _
   font-size: 11.5px;
   font-family: monospace;
   padding: 2px;
+  border-radius: 0px;
 }
 
 window#waybar {
-  background: #32302f;
-  color: #ebdbb2;
-  border-radius: 6px;
-  border: #504945 solid 2px;
+  background: #282c34;
+  border: #61AFEF solid 2px;
 }
 
 #custom-ewwmenu {
-  color: #ebdbb2;
   font-size: 19px;
   margin-right: -4px;
 }
@@ -35,33 +33,36 @@ window#waybar {
 
 #workspaces button {
   padding: 0px;
-  color: #ebdbb2;
-  border-radius: 2px;
+  color: #61AFEF;
   margin-right: 2px;
+  padding: 0px 8px;
+  border: 0px;
 }
 
 #workspaces button.persistent {
-  color: #928374;
+  color: #abb2bf;
 }
 
 #workspaces button.focused {
-  color: #ebdbb2;
-  background: #504945;
+  background: #61AFEF;
+  color: #282c34;
 }
 
 #workspaces button:hover {
-  background: #3c3836;
+  background: #2C323C;
+  color: #abb2bf;
 }
 
-#window {
-  color: #ebdbb2;
+#clock {
+  color: #abb2bf;
+  margin-right: 4px;
 }
 
-#clock,
 #pulseaudio,
 #memory,
 #cpu,
 #battery,
 #disk {
-  color: #ebdbb2;
+  color: #abb2bf;
+  margin-right: 8px;
 }

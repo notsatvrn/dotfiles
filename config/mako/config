@@ -1,25 +1,25 @@
 sort=-time
 layer=overlay
-background-color=#32302f
-width=100
+background-color=#282c34
+width=95
 height=100
 border-size=2
-border-color=#504945
-text-color=#ebdbb2
+border-color=#7aa2f7
+text-color=#a9b1d6
 border-radius=0
 icons=0
 max-icon-size=64
 default-timeout=5000
 ignore-timeout=1
-font=Iosevka Nerd Font Mono
-margin=12
+font=monospace 10
+margin=14
 
 [urgency=low]
-border-color=#504945
+border-color=#7aa2f7
 
 [urgency=normal]
-border-color=#504945
+border-color=#7aa2f7
 
 [urgency=high]
-border-color=#fb4934
+border-color=#f7768e
 default-timeout=0

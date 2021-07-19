@@ -1,0 +1,23 @@
+return require("packer").startup(function()
+  use "wbthomason/packer.nvim"
+  use "hoob3rt/lualine.nvim"
+  use "GalaxiaTeam/zerodark.nvim"
+  use "sheerun/vim-polyglot"
+  use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }
+  use "nvim-treesitter/playground"
+  use "airblade/vim-gitgutter"
+  use "tpope/vim-fugitive"
+  use "tpope/vim-sleuth"
+  use "tpope/vim-commentary"
+  use "norcalli/nvim-colorizer.lua"
+  use "jiangmiao/auto-pairs"
+  use "tpope/vim-surround"
+  use "alvan/vim-closetag"
+  use "ryanoasis/vim-devicons"
+  use "nvim-lua/popup.nvim"
+  use "nvim-lua/plenary.nvim"
+  use "nvim-telescope/telescope.nvim"
+  use "kyazdani42/nvim-web-devicons"
+  use "romgrk/barbar.nvim"
+  use "neoclide/coc.nvim"
+end)

@@ -11,51 +11,46 @@ __        __     __ _
   animation: none;
   font-family: monospace;
   font-size: 13.5px;
-  color: #ebdbb2;
+  color: #abb2bf;
+  border-radius: 0px;
+  background-color: transparent;
 }
 
 window {
   margin: 0px;
-  border-radius: 6px;
-  border: 2px solid #504945;
-  background-color: rgba(50, 48, 47, 0.9);
+  border: 2px solid #61AFEF;
+  background-color: rgba(40, 44, 52, 0.9);
 }
 
 #input {
   margin: 0px;
-  padding: 0px 0px 0px 8px;
-  background-color: transparent;
+  padding: 8px 0px 8px 8px;
   border: 0px solid transparent;
 }
 
 #inner-box {
   margin: 4px;
-  background-color: transparent;
 }
 
 #outer-box {
   margin: 2px;
-  background-color: transparent;
 }
 
 #scroll {
   margin: 0px;
-  background-color: transparent;
 }
 
 #text {
   margin: 0px -8px 2px 4px;
   padding: 0px 4px 0px 14px;
-  border-radius: 3px;
-  background-color: transparent;
 }
 
 #text:selected {
-  background-color: #504945;
+  background-color: #61AFEF;
+  color: #282c34;  
 }
 
 #entry {
   padding: 6px;
-  background-color: transparent;
   outline-color: transparent;
 }

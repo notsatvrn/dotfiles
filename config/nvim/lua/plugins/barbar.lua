@@ -1,0 +1,23 @@
+-- colors
+vim.cmd([[hi BufferCurrent guibg=#31353F]])
+vim.cmd([[hi BufferCurrentIndex guibg=#31353F guifg=#31353F]])
+vim.cmd([[hi BufferCurrentMod guibg=#31353F guifg=#61AFEF]])
+vim.cmd([[hi BufferCurrentSign guibg=#31353F guifg=#31353F]])
+vim.cmd([[hi BufferCurrentTarget guibg=#31353F guifg=#31353F]])
+vim.cmd([[hi BufferVisible guibg=#31353F]])
+vim.cmd([[hi BufferVisibleIndex guibg=#31353F guifg=#31353F]])
+vim.cmd([[hi BufferVisibleMod guibg=#31353F guifg=#61AFEF]])
+vim.cmd([[hi BufferVisibleSign guibg=#31353F guifg=#31353F]])
+vim.cmd([[hi BufferVisibleTarget guibg=#31353F guifg=#31353F]])
+vim.cmd([[hi BufferInactive guibg=#31353F]])
+vim.cmd([[hi BufferInactiveIndex guibg=#31353F guifg=#31353F]])
+vim.cmd([[hi BufferInactiveMod guibg=#31353F guifg=#61AFEF]])
+vim.cmd([[hi BufferInactiveSign guibg=#31353F guifg=#31353F]])
+vim.cmd([[hi BufferInactiveTarget guibg=#31353F guifg=#31353F]])
+vim.cmd([[hi BufferTabpages guibg=#31353F guifg=#31353F]])
+vim.cmd([[hi BufferTabpageFill guibg=#31353F guifg=#31353F]])
+
+-- configuration
+vim.cmd([[let bufferline = get(g:, 'bufferline', {})]])
+vim.cmd([[let bufferline.animation = v:false]])
+vim.cmd([[let bufferline.maximum_padding = 0]])

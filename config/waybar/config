@@ -18,8 +18,11 @@
     ],
 
     "modules-right": [
+        "disk",
+        "cpu",
+        "memory",
+        "pulseaudio",
         "clock",
-        "custom/ewwmenu",
         "tray"
     ],
 
@@ -44,19 +47,14 @@
         "3": "www",
         "4": "www",
         "5": "game",
-        "6": "mus",
-        "7": "sys",
-        "8": "sys",
+        "6": "obs",
+        "7": "virt",
+        "8": "virt",
         "9": "misc",
         "10": "misc",
-      },
+    }
     },
-
-    "custom/ewwmenu": {
-        "format": "{}",
-        "on-click": "ewwmenu"
-    },
-
+    
     "sway/window": {
         "format": "{}",
         "max-length": 50
