@@ -7,7 +7,7 @@
 - menu: wofi
 - editor: neovim
 - font: jetbrains mono nerd font
-- colors: gruvbox
+- colors: zerodark (onedark modification)
 
 ### hardware
 
