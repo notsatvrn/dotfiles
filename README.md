@@ -1,6 +1,6 @@
 ### info
 
-- distro: Arch Linux
+- distro: Artix Linux
 - wm: sway
 - bar: waybar
 - terminal: kitty
@@ -19,4 +19,5 @@
 - motherboard: p8z68-v lx
 - monitor 1: dell u2415
 - monitor 2: lg 22ea53
+- monitor 3: apple cinema display (2013)
 - mouse: razer viper
