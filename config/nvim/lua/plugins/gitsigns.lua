@@ -1,7 +1,7 @@
-vim.cmd[[highlight GitSignsAdd    guifg=#9BC379 guibg=bg]]
-vim.cmd[[highlight GitSignsChange guifg=#5eb6ed guibg=bg]]
-vim.cmd[[highlight GitSignsDelete guifg=#E56A73 guibg=bg]]
-vim.cmd[[highlight GitSignsCurrentLineBlame guifg=#61636b]]
+-- vim.cmd[[highlight GitSignsAdd    guifg=#9BC379 guibg=bg]]
+-- vim.cmd[[highlight GitSignsChange guifg=#5eb6ed guibg=bg]]
+-- vim.cmd[[highlight GitSignsDelete guifg=#E56A73 guibg=bg]]
+-- vim.cmd[[highlight GitSignsCurrentLineBlame guifg=#61636b]]
 require('gitsigns').setup {
   signs = {
     add          = {hl = 'GitSignsAdd'   , text = '+', numhl='GitSignsAddNr'   , linehl='GitSignsAddLn'},

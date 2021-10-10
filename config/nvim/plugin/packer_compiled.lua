@@ -81,45 +81,9 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/chadtree"
   },
-  ["cmp-buffer"] = {
+  ["coc.nvim"] = {
     loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/cmp-buffer"
-  },
-  ["cmp-calc"] = {
-    loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/cmp-calc"
-  },
-  ["cmp-look"] = {
-    loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/cmp-look"
-  },
-  ["cmp-nuspell"] = {
-    loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/cmp-nuspell"
-  },
-  ["cmp-nvim-lsp"] = {
-    loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
-  },
-  ["cmp-nvim-tags"] = {
-    loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/cmp-nvim-tags"
-  },
-  ["cmp-omni"] = {
-    loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/cmp-omni"
-  },
-  ["cmp-tabnine"] = {
-    loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/cmp-tabnine"
-  },
-  ["cmp-treesitter"] = {
-    loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/cmp-treesitter"
-  },
-  ["cmp-vsnip"] = {
-    loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/cmp-vsnip"
+    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/coc.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -129,10 +93,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/gitsigns.nvim"
   },
-  ["lspkind-nvim"] = {
-    loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/lualine.nvim"
@@ -140,10 +100,6 @@ _G.packer_plugins = {
   ["nim.vim"] = {
     loaded = true,
     path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/nim.vim"
-  },
-  ["nvim-cmp"] = {
-    loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/nvim-cmp"
   },
   ["nvim-colorizer.lua"] = {
     loaded = true,
@@ -176,6 +132,10 @@ _G.packer_plugins = {
   ["popup.nvim"] = {
     loaded = true,
     path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/popup.nvim"
+  },
+  ultisnips = {
+    loaded = true,
+    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/ultisnips"
   },
   ["vim-autopair"] = {
     loaded = true,
@@ -216,10 +176,6 @@ _G.packer_plugins = {
   ["vim-symlink"] = {
     loaded = true,
     path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/vim-symlink"
-  },
-  ["vim-vsnip"] = {
-    loaded = true,
-    path = "/home/satyrn/.local/share/nvim/site/pack/packer/start/vim-vsnip"
   },
   ["zerodark.nvim"] = {
     loaded = true,

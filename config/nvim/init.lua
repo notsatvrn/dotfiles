@@ -14,7 +14,6 @@ require("plugins.nvim-treesitter")
 require("plugins.lualine")
 require("plugins.barbar")
 require("plugins.gitsigns")
-require("plugins.lsp")
 require("plugins.chadtree")
 
 -- load keymappings
