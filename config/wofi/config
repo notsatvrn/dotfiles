@@ -1,6 +1,6 @@
 stylesheet=/home/satyrn/.config/wofi/style.css
 show=drun
-width=650
+width=1000
 height=488
 columns=2
 term=alacritty

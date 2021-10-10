@@ -2,917 +2,917 @@ require([[nvim-web-devicons]]).setup {
  override = {
   ["gruntfile"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Gruntfile"
   },
   ["gulpfile"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "Gulpfile"
   },
   ["dropbox"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Dropbox",
   },
   ["xls"] = {
     icon = "",
-    color = "#4ABAAF",
+    color = "#5dc6c4",
     name = "Xls",
   },
   ["doc"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Doc",
   },
   ["ppt"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "Ppt",
   },
   ["xml"] = {
     icon = "謹",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Xml",
   },
   ["webpack"] = {
     icon = "ﰩ",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Webpack",
   },
   [".settings.json"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "SettingsJson",
   },
   ["cs"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Cs",
   },
   ["procfile"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Procfile"
   },
   ["svg"] = {
     icon = "ﰟ",
-    color = "#E0AF68",
+    color = "#edbe67",
     name = "Svg",
   },
   [".bashprofile"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "BashProfile"
   };
   [".bashrc"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Bashrc"
   };
   [".babelrc"] = {
     icon = "ﬥ",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Babelrc"
   };
   [".ds_store"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "DsStore"
   };
   ["git"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "GitLogo"
   };
   [".gitattributes"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "GitAttributes"
   };
   [".gitconfig"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "GitConfig"
   };
   [".gitignore"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "GitIgnore"
   };
   [".gitmodules"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "GitModules"
   };
   ["COMMIT_EDITMSG"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "GitCommit"
   };
   ["COPYING"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "License",
   };
   ["COPYING.LESSER"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "License",
   };
   [".gitlab-ci.yml"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "GitlabCI"
   };
   [".gvimrc"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Gvimrc"
   };
   [".npmignore"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "NPMIgnore"
   };
   [".vimrc"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Vimrc"
   };
   [".zshrc"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Zshrc"
   };
   [".zshenv"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Zshenv"
   };
   [".zprofile"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Zshprofile"
   };
   ["Dockerfile"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Dockerfile"
   };
   ["Gemfile$"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "Gemfile"
   };
   ["LICENSE"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "License"
   };
   ["Vagrantfile$"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Vagrantfile"
   };
   ["_gvimrc"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Gvimrc"
   };
   ["_vimrc"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Vimrc",
   };
   ["ai"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Ai",
   };
   ["awk"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Awk",
   };
   ["bash"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Bash",
   };
   ["bat"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Bat"
   };
   ["bmp"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Bmp"
   };
   ["c"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "C"
   };
   ["c++"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "CPlusPlus"
   };
   ["cc"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "CPlusPlus"
   };
   ["clj"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Clojure",
   };
   ["cljc"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "ClojureC"
   };
   ["cljs"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "ClojureJS",
   };
   ["CMakeLists.txt"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "CMakeLists"
   };
   ["cmake"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "CMake"
   };
   ["coffee"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Coffee",
   };
   ["conf"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Conf",
   };
   ["config.ru"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "ConfigRu"
   };
   ["cp"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Cp",
   };
   ["cpp"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Cpp",
   };
   ["csh"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Csh",
   };
   ["cson"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Cson",
   };
   ["css"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Css",
   };
   ["cxx"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Cxx",
   };
   ["d"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "D",
   };
   ["dart"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Dart",
   };
   ["db"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Db",
   };
   ["diff"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Diff",
   };
   ["dockerfile"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Dockerfile",
   };
   ["dump"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Dump",
   };
   ["edn"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Edn",
   };
   ["eex"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Eex",
   };
   ["ejs"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Ejs",
   };
   ["elm"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Elm",
   };
   ["erl"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Erl",
   };
   ["ex"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Ex",
   };
   ["exs"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Exs",
   };
   ["f#"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Fsharp"
   };
   ["favicon.ico"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Favicon"
   };
   ["fish"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Fish",
   };
   ["fs"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Fs",
   };
   ["fsi"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Fsi",
   };
   ["fsscript"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Fsscript",
   };
   ["fsx"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Fsx",
   };
   ["gemspec"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Gemspec",
   };
   ["gif"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Gif",
   };
   ["go"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Go",
   };
   ["h"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "H",
   };
   ["haml"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Haml",
   };
   ["hbs"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Hbs",
   };
   ["hh"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Hh",
   };
   ["hpp"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Hpp",
   };
   ["hrl"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Hrl",
   };
   ["hs"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Hs",
   };
   ["htm"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Htm",
   };
   ["html"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Html",
   };
   ["erb"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "Erb",
   };
   ["hxx"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Hxx",
   };
   ["ico"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Ico",
   };
   ["ini"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Ini",
   };
   ["java"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "Java",
   };
   ["jl"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Jl",
   };
   ["jpeg"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Jpeg",
   };
   ["jpg"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Jpg",
   };
   ["js"] = {
     icon = "",
-    color = "#E0AF68",
+    color = "#edbe67",
     name = "Js",
   };
   ["json"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Json",
   };
   ["jsx"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Jsx",
   };
   ["ksh"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Ksh",
   };
   ["leex"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Leex",
   };
   ["less"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Less",
   };
   ["lhs"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Lhs",
   };
   ["license"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "License",
   };
   ["lua"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Lua",
   };
   ["makefile"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Makefile",
   };
   ["markdown"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Markdown",
   };
   ["md"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Md",
   };
   ["mdx"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Mdx",
   };
   ["mix.lock"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "MixLock"
   };
   ["mjs"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Mjs",
   };
   ["ml"] = {
     icon = "λ",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Ml"
   };
   ["mli"] = {
     icon = "λ",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Mli",
   };
   ["mustache"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Mustache",
   };
   ["nix"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Nix",
   };
   ["node_modules"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "NodeModules",
   };
   ["php"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Php"
   };
   ["pl"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Pl"
   };
   ["pm"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Pm"
   };
   ["png"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Png"
   };
   ["pp"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Pp"
   };
   ["ps1"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "PromptPs1"
   };
   ["psb"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Psb"
   };
   ["psd"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Psd"
   };
   ["py"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Py"
   };
   ["pyc"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Pyc"
   };
   ["pyd"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Pyd",
   };
   ["pyo"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Pyo"
   };
   ["r"] = {
     icon = "ﳒ",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "R"
   };
   ["R"] = {
     icon = "ﳒ",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "R"
   };
   ["rake"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "Rake"
   };
   ["rakefile"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "Rakefile"
   };
   ["rb"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "Rb"
   };
   ["rlib"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Rlib",
   };
   ["rmd"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Rmd"
   };
   ["Rmd"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Rmd"
   };
   ["rproj"] = {
     icon = "鉶",
-    color = "#4ABAAF",
+    color = "#5dc6c4",
     name = "Rproj"
   };
   ["rs"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Rs"
   };
   ["rss"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Rss"
   };
   ["sass"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Sass"
   };
   ["scala"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "Scala"
   };
   ["scss"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Scss"
   };
   ["sh"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Sh"
   };
   ["slim"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "Slim"
   };
   ["sln"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Sln"
   };
   ["sql"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Sql"
   };
   ["styl"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Styl"
   };
   ["suo"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Suo"
   };
   ["swift"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Swift"
   };
   ["t"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Tor"
   };
   ["tex"] = {
     icon = "ﭨ",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Tex"
   };
   ["toml"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Toml"
   };
   ["ts"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Ts"
   };
   ["tsx"] = {
     icon = "",
-    color = "#7AA2F7",
+    color = "#5eb6ed",
     name = "Tsx"
   };
   ["twig"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Twig"
   };
   ["vim"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Vim"
   };
   ["vue"] = {
     icon = "﵂",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Vue"
   };
   ["webmanifest"] = {
     icon = "",
-    color = "#E0AF68",
+    color = "#edbe67",
     name = "Webmanifest"
   };
   ["webp"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Webp"
   };
   ["xcplayground"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "XcPlayground",
   };
   ["xul"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Xul"
   };
   ["yaml"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Yaml"
   };
   ["yml"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Yml"
   };
   ["zsh"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Zsh"
   };
   ["terminal"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "Terminal"
   };
   ["pdf"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "Pdf"
   };
   ["kt"] = {
     icon = "𝙆",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "Kotlin"
   };
   ["gd"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "GDScript"
   };
   ["tscn"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "TextScene"
   };
   ["godot"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "GodotProject"
   };
   ["tres"] = {
     icon = "",
-    color = "#9ECE6A",
+    color = "#9bc379",
     name = "TextResource"
   };
   ["glb"] = {
     icon = "",
-    color = "#E0AF68",
+    color = "#edbe67",
     name = "BinaryGLTF"
   };
   ["import"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "ImportConfiguration"
   };
   ["material"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "Material"
   };
   ["otf"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "OpenTypeFont"
   };
   ["cfg"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "Configuration"
   };
   ["pck"] = {
     icon = "",
-    color = "#A9B1D6",
+    color = "#b1b3b9",
     name = "PackedResource"
   };
   ["desktop"] = {
     icon = "",
-    color = "#9A7ECC",
+    color = "#c67bdd",
     name = "DesktopEntry"
   };
   ["opus"] = {
     icon = "",
-    color = "#FF9E64",
+    color = "#e09761",
     name = "OPUS"
   };
   ["svelte"] = {
     icon = "",
-    color = "#F7768E",
+    color = "#E56A73",
     name = "Svelte"
   };
  };

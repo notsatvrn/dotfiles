@@ -3,7 +3,7 @@
 - distro: Artix Linux
 - wm: sway
 - bar: waybar
-- terminal: kitty
+- terminal: wezterm
 - menu: wofi
 - editor: neovim
 - font: jetbrains mono nerd font

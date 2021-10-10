@@ -17,8 +17,8 @@ __        __          _
 }
 
 window#waybar {
-  background: #282c34;
-  border: #61AFEF solid 2px;
+  background: #2c2d30;
+  border: solid #b1b3b9 2px;
 }
 
 #custom-ewwmenu {
@@ -33,28 +33,29 @@ window#waybar {
 
 #workspaces button {
   padding: 0px;
-  color: #61AFEF;
+  color: #b1b3b9;
   margin-right: 2px;
   padding: 0px 8px;
   border: 0px;
 }
 
 #workspaces button.persistent {
-  color: #abb2bf;
+  color: #61636b;
 }
 
 #workspaces button.focused {
-  background: #61AFEF;
-  color: #282c34;
+  background: #b1b3b9;
+  border-radius: 2px;
+  color: #2c2d30;
 }
 
 #workspaces button:hover {
-  background: #2C323C;
-  color: #abb2bf;
+  background: #35373b;
+  color: #b1b3b9;
 }
 
 #clock {
-  color: #abb2bf;
+  color: #b1b3b9;
   margin-right: 4px;
 }
 
@@ -63,6 +64,6 @@ window#waybar {
 #cpu,
 #battery,
 #disk {
-  color: #abb2bf;
+  color: #b1b3b9;
   margin-right: 8px;
 }

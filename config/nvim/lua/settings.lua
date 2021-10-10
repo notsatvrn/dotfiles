@@ -22,7 +22,6 @@ vim.opt.autoindent = true
 vim.opt.laststatus = 2
 vim.opt.showtabline = 2
 vim.opt.number = true
-vim.opt.cursorline = true
 vim.opt.background = [[dark]]
 vim.opt.showmode = false
 vim.opt.showcmd = false
@@ -35,3 +34,7 @@ vim.opt.clipboard = [[unnamedplus]]
 vim.opt.incsearch = true
 vim.opt.guifont = [[monospace]]
 vim.opt.ruler = false
+vim.opt.cursorline = true
+vim.opt.completeopt = [[menu]],[[menuone]],[[noselect]]
+vim.opt.omnifunc = [[syntaxcomplete#Complete]]
+vim.cmd([[filetype plugin on]])

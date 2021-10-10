@@ -1,23 +1,41 @@
-return require("packer").startup(function()
-  use "wbthomason/packer.nvim"
-  use "hoob3rt/lualine.nvim"
-  use "GalaxiaTeam/zerodark.nvim"
-  use "sheerun/vim-polyglot"
-  use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }
-  use "nvim-treesitter/playground"
-  use "airblade/vim-gitgutter"
-  use "tpope/vim-fugitive"
-  use "tpope/vim-sleuth"
-  use "tpope/vim-commentary"
-  use "norcalli/nvim-colorizer.lua"
-  use "jiangmiao/auto-pairs"
-  use "tpope/vim-surround"
-  use "alvan/vim-closetag"
-  use "ryanoasis/vim-devicons"
-  use "nvim-lua/popup.nvim"
-  use "nvim-lua/plenary.nvim"
-  use "nvim-telescope/telescope.nvim"
-  use "kyazdani42/nvim-web-devicons"
-  use "romgrk/barbar.nvim"
-  use "neoclide/coc.nvim"
+return require([[packer]]).startup(function()
+  use([[wbthomason/packer.nvim]])
+  use([[hoob3rt/lualine.nvim]])
+  use([[GalaxiaTeam/zerodark.nvim]])
+  use([[sheerun/vim-polyglot]])
+  use({ [[nvim-treesitter/nvim-treesitter]], run = ":TSUpdate" })
+  use([[nvim-treesitter/playground]])
+  use([[tpope/vim-fugitive]])
+  use([[tpope/vim-sleuth]])
+  use([[tpope/vim-commentary]])
+  use([[norcalli/nvim-colorizer.lua]])
+  use([[eluum/vim-autopair]])
+  use([[alvan/vim-closetag]])
+  use([[ryanoasis/vim-devicons]])
+  use([[nvim-lua/popup.nvim]])
+  use([[nvim-lua/plenary.nvim]])
+  use([[kyazdani42/nvim-web-devicons]])
+  use([[romgrk/barbar.nvim]])
+  use([[zah/nim.vim]])
+  use([[aymericbeaumet/vim-symlink]])
+  use([[moll/vim-bbye]])
+  use([[lewis6991/gitsigns.nvim]])
+  use({ [[satyrnsstuff/chadtree]], run = [[python3 -m chadtree deps --nvim]] })
+  use([[neovim/nvim-lspconfig]])
+  use([[turbio/bracey.vim]])
+  use([[hrsh7th/nvim-cmp]])
+  use([[hrsh7th/cmp-nvim-lsp]])
+  use([[hrsh7th/cmp-buffer]])
+  use([[octaltree/cmp-look]])
+  use([[hrsh7th/vim-vsnip]])
+  use([[hrsh7th/cmp-vsnip]])
+  use([[hrsh7th/cmp-calc]])
+  use([[ray-x/cmp-treesitter]])
+  use({[[f3fora/cmp-nuspell]], rocks={[[lua-nuspell]]}})
+  use([[quangnguyen30192/cmp-nvim-tags]])
+  use([[rafamadriz/friendly-snippets]])
+  use([[honza/vim-snippets]])
+  use([[onsails/lspkind-nvim]])
+  use([[hrsh7th/cmp-omni]])
+  use({ [[tzachar/cmp-tabnine]], run = [[./install.sh]] })
 end)

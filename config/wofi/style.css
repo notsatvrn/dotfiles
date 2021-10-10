@@ -11,15 +11,15 @@ __        __     __ _
   animation: none;
   font-family: monospace;
   font-size: 13.5px;
-  color: #abb2bf;
+  color: #b1b3b9;
   border-radius: 0px;
   background-color: transparent;
 }
 
 window {
   margin: 0px;
-  border: 2px solid #61AFEF;
-  background-color: rgba(40, 44, 52, 0.9);
+  border: 2px solid #b1b3b9;
+  background-color: rgba(44, 45, 48, 0.9);
 }
 
 #input {
@@ -46,8 +46,8 @@ window {
 }
 
 #text:selected {
-  background-color: #61AFEF;
-  color: #282c34;  
+  background-color: #b1b3b9;
+  color: #2c2d30;
 }
 
 #entry {
